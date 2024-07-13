@@ -17,10 +17,6 @@ class Archer:
             self.num_arrows -= 1
             print(f"{self.name} shoots {target.name}")
             return target.get_shot()
-            
-            
-
-    # don't touch below this line
 
     def get_status(self):
         return self.name, self.health, self.num_arrows
