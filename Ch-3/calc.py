@@ -17,9 +17,9 @@ class Calculator:
         self.__result /= a
 
     def modulo(self, a):
-        self.__result %= a
         if a <= 0: 
             raise ValueError('Cannot divide by zero')
+        self.__result %= a
 
     def power(self, a):
         self.__result **= a
