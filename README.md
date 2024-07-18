@@ -1,2 +1,3 @@
 # OOP
-This repo contains my solutions for a Object Oriented Programming course.
+
+This repo contains my solutions for a Object Oriented Programming course in Python.
